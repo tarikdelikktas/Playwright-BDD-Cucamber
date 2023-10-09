@@ -1,9 +1,8 @@
-const command = `
+const common = `
     --require setup/assertions.js
     --require setup/hooks.js
-    --require step-definitions/**/*.step.js
+    --require step-defitions/**/*.step.js
 `
-
 module.exports = {
-    default: `${command} features/**/*.feature`
+    default: `${common} features/**/*.feature`,
 }
