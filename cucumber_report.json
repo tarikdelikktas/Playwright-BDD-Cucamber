@@ -19,7 +19,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 1269210,
+              "duration": 1247759,
               "error_message": "ReferenceError: page is not defined\n    at LoginPage.navigateToLoginScreen (/Users/hilalozakarli/Documents/GitHub/Playwright-BDD-Cucamber/page-objects/login-page.js:3:9)\n    at World.<anonymous> (/Users/hilalozakarli/Documents/GitHub/Playwright-BDD-Cucamber/step-definitions/login-step.js:7:21)"
             }
           },

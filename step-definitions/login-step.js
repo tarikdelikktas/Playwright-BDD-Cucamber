@@ -1,5 +1,5 @@
 const { Given, When, Then, defineStep } = require("@cucumber/cucumber")
-const { LoginPage } = require('../page-objects/login-page').default
+const { LoginPage } = require('../page-objects/login-page')
 
 const loginPage = new LoginPage()
 
