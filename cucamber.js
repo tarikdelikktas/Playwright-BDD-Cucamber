@@ -4,5 +4,5 @@ const common = `
     --require step-defitions/**/*.step.js
 `
 module.exports = {
-    default: `${common} features/**/*.feature`,
+  default: `${common} features/**/*.feature`,
 }

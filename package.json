@@ -4,8 +4,8 @@
   "description": "Cucamber with Gherkin for BDD Test Suites",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/cucumber-js --require cucumber.js --require step-definitions/**/*.js -f json:cucumber_report.json --publish",
-    "report": "node reporter.js"
+    "test": "./node_modules/.bin/cucumber-js --require cucumber.js --require step-definitions/**/*.js -f json:cucumber_report.json",
+    "report": "node reporter.js" 
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,9 @@
     "cucumber-html-reporter": "^7.1.1",
     "playwright": "^1.38.1",
     "prettier": "^3.0.3"
+  },
+  "devDependencies": {
+    "@cucumber/pretty-formatter": "^1.0.0",
+    "@playwright/test": "^1.38.1"
   }
 }
