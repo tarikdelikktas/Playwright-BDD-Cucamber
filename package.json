@@ -25,7 +25,6 @@
     "prettier": "^3.0.3"
   },
   "devDependencies": {
-    "@cucumber/pretty-formatter": "^1.0.0",
-    "@playwright/test": "^1.38.1"
+    "@cucumber/pretty-formatter": "^1.0.0"
   }
 }
